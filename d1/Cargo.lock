@@ -3,6 +3,13 @@
 version = 3
 
 [[package]]
+name = "d1"
+version = "0.1.0"
+dependencies = [
+ "strum",
+]
+
+[[package]]
 name = "heck"
 version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -31,13 +38,6 @@ name = "rustversion"
 version = "1.0.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7ffc183a10b4478d04cbbbfc96d0873219d962dd5accaff2ffbd4ceb7df837f4"
-
-[[package]]
-name = "s1"
-version = "0.1.0"
-dependencies = [
- "strum",
-]
 
 [[package]]
 name = "strum"
