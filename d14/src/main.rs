@@ -1,6 +1,5 @@
 use std::fs::File;
 use std::io::Read;
-use std::usize;
 
 fn read_lines(file_name: &str) -> Vec<String> {
     let mut file = File::open(file_name).unwrap();
